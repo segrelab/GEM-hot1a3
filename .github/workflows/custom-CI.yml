@@ -1,0 +1,65 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Custom-CI
+
+# Controls when the workflow will run
+# Run for pushes and pulls on every branch and manually from the Actions tab
+# on: [push, pull_request, workflow_dispatch]
+# Just keep the button in the Actions tab for now, we can use the above to add all the triggers later
+on: [workflow_dispatch]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # First job builds the environment
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-22.04
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Install everything I need
+      - name: Install Dependencies
+        run: |
+          echo Installing Dependencies
+          python -m pip install --upgrade pip
+          python -m pip install importlib-resources==5.13.0
+          python -m pip install numpy==1.23.5
+          python -m pip install memote
+          python -m pip install cobra
+          python -m pip install pytest
+          python -m pip install matplotlib
+          python -m pip install seaborn
+          python -m pip install openpyxl
+          python -m pip install git+https://github.com/Devlin-Moyer/macaw.git@main
+          # FIXME: These are dependencies for macaw, remove once the setup.py
+          # file includes the install requirements
+          python -m pip install Pebble==5.0.7
+          python -m pip install networkx==3.1
+
+      # Generate the memote report on the model
+      - name: Generate MEMOTE Report
+        run: memote report snapshot model.xml
+
+      # Run the macaw tests
+      - name: Run MACAW tests
+        run: python run_macaw.py
+
+      # Run the custom tests
+      - name: Run Custom Tests with pytest
+        run: pytest
+
+      # Export model file as json file
+      - name: Export Model as JSON
+        run: python export_model.py
+
+      - name: Push to Remote
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
+          git add -A
+          git commit -m "Run custom-CI workflow"
+          git push
