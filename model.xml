@@ -27395,11 +27395,7 @@
           <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS20710"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS20210"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10400"/>
-          </fbc:and>
+          <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10400"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn03535_c0" sboTerm="SBO:0000176" id="R_rxn03535_c0" name="ATP:cob(I)yrinic acid-a,c-diamide Cobeta-adenosyltransferase [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -32158,10 +32154,7 @@
           <speciesReference species="M_cpd00292_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03575"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS17610"/>
-          </fbc:and>
+          <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03575"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn00555_c0" sboTerm="SBO:0000176" id="R_rxn00555_c0" name="L-glutamine:D-fructose-6-phosphate isomerase (deaminating) [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -44101,11 +44094,7 @@
           <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS20710"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS20210"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10400"/>
-          </fbc:and>
+          <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10400"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn00791_c0" sboTerm="SBO:0000176" id="R_rxn00791_c0" name="N-(5-Phospho-D-ribosyl)anthranilate:pyrophosphate phosphoribosyl-transferase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
@@ -45574,7 +45563,6 @@
             <fbc:and>
               <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00380"/>
               <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10215"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS18560"/>
             </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12555"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15420"/>
@@ -65698,8 +65686,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS20710" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS20710" fbc:name="ACZ81_RS20710" fbc:label="G_ACZ81_RS20710"/>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS20210" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS20210" fbc:name="ACZ81_RS20210" fbc:label="G_ACZ81_RS20210"/>
       <fbc:geneProduct metaid="meta_G_ACZ81_RS10400" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS10400" fbc:name="ACZ81_RS10400" fbc:label="G_ACZ81_RS10400">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -67312,7 +67298,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS17610" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS17610" fbc:name="ACZ81_RS17610" fbc:label="G_ACZ81_RS17610"/>
       <fbc:geneProduct metaid="meta_G_ACZ81_RS18845" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS18845" fbc:name="ACZ81_RS18845" fbc:label="G_ACZ81_RS18845">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -71448,7 +71433,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS18560" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS18560" fbc:name="ACZ81_RS18560" fbc:label="G_ACZ81_RS18560"/>
       <fbc:geneProduct metaid="meta_G_ACZ81_RS12555" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS12555" fbc:name="ACZ81_RS12555" fbc:label="G_ACZ81_RS12555">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
