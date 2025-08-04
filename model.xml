@@ -65308,7 +65308,19 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS20365" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS20365" fbc:name="ACZ81_RS20365" fbc:label="G_ACZ81_RS20365"/>
+      <fbc:geneProduct metaid="meta_G_ACZ81_RS20365" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS20365" fbc:name="ACZ81_RS20365" fbc:label="G_ACZ81_RS20365">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_ACZ81_RS20365">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_014996986.1"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_ACZ81_RS14835" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS14835" fbc:name="ACZ81_RS14835" fbc:label="G_ACZ81_RS14835">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -70409,7 +70421,19 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS20180" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS20180" fbc:name="ACZ81_RS20180" fbc:label="G_ACZ81_RS20180"/>
+      <fbc:geneProduct metaid="meta_G_ACZ81_RS20180" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS20180" fbc:name="ACZ81_RS20180" fbc:label="G_ACZ81_RS20180">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_ACZ81_RS20180">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_012516877.1"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_ACZ81_RS15345" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS15345" fbc:name="ACZ81_RS15345" fbc:label="G_ACZ81_RS15345">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -74181,7 +74205,19 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS20260" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS20260" fbc:name="ACZ81_RS20260" fbc:label="G_ACZ81_RS20260"/>
+      <fbc:geneProduct metaid="meta_G_ACZ81_RS20260" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS20260" fbc:name="ACZ81_RS20260" fbc:label="G_ACZ81_RS20260">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_ACZ81_RS20260">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_061487034.1"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_ACZ81_RS03665" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS03665" fbc:name="ACZ81_RS03665" fbc:label="G_ACZ81_RS03665">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -74702,7 +74738,19 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS20290" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS20290" fbc:name="ACZ81_RS20290" fbc:label="G_ACZ81_RS20290"/>
+      <fbc:geneProduct metaid="meta_G_ACZ81_RS20290" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS20290" fbc:name="ACZ81_RS20290" fbc:label="G_ACZ81_RS20290">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_G_ACZ81_RS20290">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_061487036.1"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_ACZ81_RS02665" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS02665" fbc:name="ACZ81_RS02665" fbc:label="G_ACZ81_RS02665">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
