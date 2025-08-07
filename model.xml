@@ -65405,12 +65405,12 @@
           <speciesReference species="M_cpd10515_c0" stoichiometry="4" constant="true"/>
         </listOfReactants>
         <listOfProducts>
+          <speciesReference species="M_cpd24682_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00008_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00009_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00015_c0" stoichiometry="3" constant="true"/>
           <speciesReference species="M_cpd00035_c0" stoichiometry="4" constant="true"/>
           <speciesReference species="M_cpd00067_c0" stoichiometry="10" constant="true"/>
-          <speciesReference species="M_cpd24682_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13530"/>
@@ -65437,8 +65437,8 @@
           <speciesReference species="M_cpd03091_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_cpd00128_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15380_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00128_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15365"/>
@@ -65482,14 +65482,14 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
+          <speciesReference species="M_cpd12227_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00005_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd12227_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
+          <speciesReference species="M_cpd11912_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00006_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd02345_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd11912_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS07325"/>
@@ -65667,8 +65667,8 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00009_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00080_e0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00009_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00009_e0" stoichiometry="1" constant="true"/>
@@ -65690,8 +65690,8 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00067_e0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00069_e0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_e0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
@@ -65712,8 +65712,8 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00067_e0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00156_e0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_e0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
@@ -65745,9 +65745,9 @@
       </reaction>
       <reaction id="R_rxn05171_c0" name="nitrate-transporting ATPase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
+          <speciesReference species="M_cpd00209_e0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00002_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00209_e0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00008_c0" stoichiometry="1" constant="true"/>
@@ -65814,9 +65814,9 @@
           <speciesReference species="M_cpd23538_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
+          <speciesReference species="M_cpd23539_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00005_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd23539_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_rxn22084_c0" sboTerm="SBO:0000176" id="R_rxn22084_c0" name="(R)-sulfopropanediol 2-dehydrogenase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -65838,8 +65838,8 @@
           <speciesReference species="M_cpd23539_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd20923_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_rxn16387_c0" sboTerm="SBO:0000176" id="R_rxn16387_c0" name="(R)-2,3-dihydroxypropane-1-sulfonate:NAD+ 3-oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -65863,9 +65863,9 @@
           <speciesReference species="M_cpd20923_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
+          <speciesReference species="M_cpd08367_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00004_c0" stoichiometry="2" constant="true"/>
           <speciesReference species="M_cpd00067_c0" stoichiometry="3" constant="true"/>
-          <speciesReference species="M_cpd08367_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_rxn04934_c0" sboTerm="SBO:0000176" id="R_rxn04934_c0" name="(2R)-3-sulfolactate:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -65982,8 +65982,8 @@
           <speciesReference species="M_cpd00378_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_cpd00067_e0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00378_e0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_e0" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_rxn00510_c0" sboTerm="SBO:0000176" id="R_rxn00510_c0" name="N6-(L-1,3-Dicarboxypropyl)-L-lysine:NAD+ oxidoreductase (L-lysine-forming)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -66033,12 +66033,12 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00024_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00467_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00024_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_cpd00023_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd03284_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00023_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11065"/>
@@ -66059,9 +66059,9 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
+          <speciesReference species="M_cpd09206_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd09206_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00004_c0" stoichiometry="1" constant="true"/>
@@ -66088,14 +66088,14 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
+          <speciesReference species="M_cpd00756_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00007_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00756_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
+          <speciesReference species="M_cpd00183_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00025_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00055_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00183_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS05325"/>
@@ -66121,8 +66121,8 @@
           <speciesReference species="M_cpd00249_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_cpd00092_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00475_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00092_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS05325"/>
@@ -66143,13 +66143,13 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00006_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00306_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00006_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
+          <speciesReference species="M_cpd00261_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00005_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00261_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11090"/>
@@ -66197,8 +66197,8 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00729_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00013_c0" stoichiometry="1" constant="true"/>
@@ -66249,13 +66249,13 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd02646_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
+          <speciesReference species="M_cpd01932_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00004_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd01932_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08640"/>
@@ -66276,13 +66276,13 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd09253_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
+          <speciesReference species="M_cpd09254_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00004_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd09254_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08640"/>
