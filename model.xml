@@ -21780,6 +21780,591 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species metaid="meta_M_cpd14954_c0" sboTerm="SBO:0000247" id="M_cpd14954_c0" name="Protein N6-(lipoyl)lysine [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C8H14NORS2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd14954_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C16237"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd14954"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd16584_c0" sboTerm="SBO:0000247" id="M_cpd16584_c0" name="Protein N6-(dihydrolipoyl)lysine [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C8H16NORS2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd16584_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C16832"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd16584"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd15217_c0" sboTerm="SBO:0000247" id="M_cpd15217_c0" name="S-Aminomethyldihydrolipoamide [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C9H21N2OS2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd15217_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/alpam"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C9H20N2OS2/c10-7-14-6-5-8(13)3-1-2-4-9(11)12/h8,13H,1-7,10H2,(H2,11,12)"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/KALYVIJGKPJBQV-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01242"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd15217"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd00418_c0" sboTerm="SBO:0000247" id="M_cpd00418_c0" name="NO [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="NO">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd00418_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/no"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:NITRIC-OXIDE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/NO/c1-2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/MWUXSHHQAYIFBG-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00533"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM228"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM162249"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00418"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd00418_e0" sboTerm="SBO:0000247" id="M_cpd00418_e0" name="NO [e0]" compartment="e0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="NO">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd00418_e0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/no"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:NITRIC-OXIDE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/NO/c1-2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/MWUXSHHQAYIFBG-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00533"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM228"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM162249"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00418"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd24682_c0" sboTerm="SBO:0000247" id="M_cpd24682_c0" name="4Fe4S iron-sulfur cluster [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="2" fbc:chemicalFormula="S4Fe4">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd24682_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/4fe4s"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:4Fe-4S+2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/4Fe.4S/q;;2*+1;;;;"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/YEAYMLBNRJYVPB-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C22154"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM732007"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd24682"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd15380_c0" sboTerm="SBO:0000247" id="M_cpd15380_c0" name="5&apos;-deoxyribose [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H10O4">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd15380_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/5drib"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C10H13N5O3/c1-4-6(16)7(17)10(18-4)15-3-14-5-8(11)12-2-13-9(5)15/h2-4,6-7,10,16-17H,1H3,(H2,11,12,13)/t4-,6-,7-,10-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/XGYIMTFOTBMPFP-KQYNXXCUSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05198"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1103313"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd15380"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd15380_e0" sboTerm="SBO:0000247" id="M_cpd15380_e0" name="5&apos;-deoxyribose [e0]" compartment="e0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H10O4">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd15380_e0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/5drib"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C10H13N5O3/c1-4-6(16)7(17)10(18-4)15-3-14-5-8(11)12-2-13-9(5)15/h2-4,6-7,10,16-17H,1H3,(H2,11,12,13)/t4-,6-,7-,10-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/XGYIMTFOTBMPFP-KQYNXXCUSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C05198"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1103313"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd15380"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd11912_c0" sboTerm="SBO:0000247" id="M_cpd11912_c0" name="tRNA-Glu [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H12N5O3R">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd11912_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/trnaglu"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:GLT-tRNAs"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01641"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM90886"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd11912"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd12227_c0" sboTerm="SBO:0000247" id="M_cpd12227_c0" name="L-Glutamyl-tRNA-Glu [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C25H34N6O19P2R2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd12227_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/glutrna"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02987"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM731031"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd12227"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd01042_e0" sboTerm="SBO:0000247" id="M_cpd01042_e0" name="p-Cresol [e0]" compartment="e0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C7H8O">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd01042_e0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/4crsol"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CPD-108"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C7H8O/c1-6-2-4-7(8)5-3-6/h2-5,8H,1H3"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/IWDCLRJOBJJRNH-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01468"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM828"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd01042"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd00080_e0" sboTerm="SBO:0000247" id="M_cpd00080_e0" name="Glycerol-3-phosphate [e0]" compartment="e0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C3H7O6P">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd00080_e0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/glyc3p"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:GLYCEROL-3P"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C3H9O6P/c4-1-3(5)2-9-10(6,7)8/h3-5H,1-2H2,(H2,6,7,8)/p-2/t3-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/AWUCVROLDVIAJX-GSVOUGTGSA-L"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00093"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM66"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00080"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd00069_e0" sboTerm="SBO:0000247" id="M_cpd00069_e0" name="L-Tyrosine [e0]" compartment="e0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C9H11NO3">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd00069_e0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/tyr__L"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:TYR"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C9H11NO3/c10-8(9(12)13)5-6-1-3-7(11)4-2-6/h1-4,8,11H,5,10H2,(H,12,13)/t8-/m0/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/OUYCCCASQSFEME-QMMMGPOBSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00082"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM76"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00069"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd00156_e0" sboTerm="SBO:0000247" id="M_cpd00156_e0" name="L-Valine [e0]" compartment="e0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H11NO2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd00156_e0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/val__L"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:VAL"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C5H11NO2/c1-3(2)4(6)5(7)8/h3-4H,6H2,1-2H3,(H,7,8)/t4-/m0/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/KZSNJWFQEVHDMF-BYPYZUCNSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00183"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM199"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00156"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd00209_e0" id="M_cpd00209_e0" name="Nitrate [e0]" compartment="e0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="NO3">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd00209_e0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/aracyc/NITRATE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg/no3"/>
+                  <rdf:li rdf:resource="https://identifiers.org/brachycyc/NITRATE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg/C00244"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metacyc/CPD-15028"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metacyc/NITRATE"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd23538_c0" sboTerm="SBO:0000247" id="M_cpd23538_c0" name="(S)-2,3-dihydroxypropane-1-sulfonate [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H7O5S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd23538_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CPD-12693"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C3H8O5S/c4-1-3(5)2-9(6,7)8/h3-5H,1-2H2,(H,6,7,8)/p-1/t3-/m0/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/InChIKey=YPFUJZAAZJXMIP-VKHMYHEASA-M"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C22383"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM13761"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd23538"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd23538_e0" sboTerm="SBO:0000247" id="M_cpd23538_e0" name="(S)-2,3-dihydroxypropane-1-sulfonate [e0]" compartment="e0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H7O5S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd23538_e0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CPD-12693"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C3H8O5S/c4-1-3(5)2-9(6,7)8/h3-5H,1-2H2,(H,6,7,8)/p-1/t3-/m0/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/InChIKey=YPFUJZAAZJXMIP-VKHMYHEASA-M"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C22383"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM13761"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd23538"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd23539_c0" sboTerm="SBO:0000247" id="M_cpd23539_c0" name="2-oxo-3-hydroxy-propane-1-sulfonate [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H5O5S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd23539_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CPD-12694"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C3H6O5S/c4-1-3(5)2-9(6,7)8/h4H,1-2H2,(H,6,7,8)/p-1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/InChIKey=MZULZEBLIRPPES-UHFFFAOYSA-M"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM9878"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd23539"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd20923_c0" sboTerm="SBO:0000247" id="M_cpd20923_c0" name="(R)-2,3-dihydroxypropane-1-sulfonate [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H7O5S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd20923_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CPD-12692"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C3H8O5S/c4-1-3(5)2-9(6,7)8/h3-5H,1-2H2,(H,6,7,8)/p-1/t3-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/InChIKey=YPFUJZAAZJXMIP-GSVOUGTGSA-M"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C19675"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM3743"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd20923"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd08367_c0" sboTerm="SBO:0000247" id="M_cpd08367_c0" name="(2R)-3-Sulfolactate [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C3H4O6S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd08367_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/sl__L"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CPD-367"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C3H6O6S/c4-2(3(5)6)1-10(7,8)9/h2,4H,1H2,(H,5,6)(H,7,8,9)/p-2/t2-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/CQQGIWJSICOUON-UWTATZPHSA-L"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C11537"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/CQQGIWJSICOUON-UWTATZPHSA-L"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd08367"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd00204_e0" id="M_cpd00204_e0" name="CO [e0]" compartment="e0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="CHO">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd00204_e0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/aracyc/CARBON-MONOXIDE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg/co"/>
+                  <rdf:li rdf:resource="https://identifiers.org/brachycyc/CARBON-MONOXIDE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg/C00237"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metacyc/CARBON-MONOXIDE"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd00123_e0" id="M_cpd00123_e0" name="3-Methyl-2-oxobutanoate [e0]" compartment="e0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H7O3">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd00123_e0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/aracyc/2-KETO-ISOVALERATE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg/3mob"/>
+                  <rdf:li rdf:resource="https://identifiers.org/brachycyc/2-KETO-ISOVALERATE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg/C00141"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metacyc/2-KETO-ISOVALERATE"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd00378_e0" sboTerm="SBO:0000247" id="M_cpd00378_e0" name="Formamide [e0]" compartment="e0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="CH3NO">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd00378_e0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/frmd"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:FORMAMIDE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/CH3NO/c2-1-3/h1H,(H2,2,3)"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/ZHNUHDYFZUAESO-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00488"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1231"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00378"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd00467_c0" sboTerm="SBO:0000247" id="M_cpd00467_c0" name="3-Sulfinoalanine [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H6NO4S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd00467_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00467"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd03284_c0" sboTerm="SBO:0000247" id="M_cpd03284_c0" name="3-Sulfinopyruvate [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C3H2O5S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd03284_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd03284"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd09206_c0" sboTerm="SBO:0000247" id="M_cpd09206_c0" name="5-Aminopentanal [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C5H12NO">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd09206_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd09206"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd00183_c0" sboTerm="SBO:0000247" id="M_cpd00183_c0" name="Sarcosine [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H7NO2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd00183_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00183"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd00756_c0" sboTerm="SBO:0000247" id="M_cpd00756_c0" name="Dimethylglycine [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C4H9NO2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd00756_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00756"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd00475_c0" sboTerm="SBO:0000247" id="M_cpd00475_c0" name="Ribose 1-phosphate [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C5H9O8P">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd00475_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00475"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd00261_c0" sboTerm="SBO:0000247" id="M_cpd00261_c0" name="L-Lyxulose [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H10O5">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd00261_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/xylu__L"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:L-XYLULOSE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h3,5-8,10H,1-2H2/t3-,5+/m0/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/ZAQJHHRNXZUBTE-WVZVXSGGSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00312"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1282"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00261"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd00306_c0" sboTerm="SBO:0000247" id="M_cpd00306_c0" name="Xylitol [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H12O5">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd00306_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00306"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd00729_c0" sboTerm="SBO:0000247" id="M_cpd00729_c0" name="5-Aminopentanamide [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C5H13N2O">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd00729_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00729"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd01932_c0" sboTerm="SBO:0000247" id="M_cpd01932_c0" name="1,2-Naphthalenediol [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H8O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd01932_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd01932"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd02646_c0" sboTerm="SBO:0000247" id="M_cpd02646_c0" name="cis-1,2-Dihydronaphthalene-1,2-diol [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H10O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd02646_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd02646"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd09253_c0" sboTerm="SBO:0000247" id="M_cpd09253_c0" name="cis-3-(3-Carboxyethenyl)-3,5-cyclohexadiene-1,2-diol [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C9H9O4">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd09253_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd09253"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd09254_c0" sboTerm="SBO:0000247" id="M_cpd09254_c0" name="2,3-dihydroxicinnamic acid [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C9H7O4">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd09254_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd09254"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -21901,8 +22486,8 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00213_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd14700_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd14954_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00056_c0" stoichiometry="1" constant="true"/>
@@ -22318,8 +22903,8 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00213_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd03049_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd14954_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00056_c0" stoichiometry="1" constant="true"/>
@@ -25414,6 +25999,7 @@
         <listOfReactants>
           <speciesReference species="M_cpd11464_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11492_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00011_c0" stoichiometry="1" constant="true"/>
@@ -25781,8 +26367,8 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00213_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd03189_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd14954_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00056_c0" stoichiometry="1" constant="true"/>
@@ -25815,8 +26401,8 @@
         <listOfProducts>
           <speciesReference species="M_cpd00012_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00018_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="2" constant="true"/>
           <speciesReference species="M_cpd15239_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:and>
@@ -27635,8 +28221,8 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00004_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="2" constant="true"/>
           <speciesReference species="M_cpd11469_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
@@ -29020,6 +29606,7 @@
         <listOfReactants>
           <speciesReference species="M_cpd00022_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11492_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00010_c0" stoichiometry="1" constant="true"/>
@@ -29606,8 +30193,8 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00449_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00481_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd16584_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00010_c0" stoichiometry="1" constant="true"/>
@@ -29917,7 +30504,6 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00080_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15268_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -30282,6 +30868,7 @@
         <listOfReactants>
           <speciesReference species="M_cpd11474_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11492_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00011_c0" stoichiometry="1" constant="true"/>
@@ -30465,7 +31052,6 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00010_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11476_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -30961,6 +31547,7 @@
         <listOfReactants>
           <speciesReference species="M_cpd11468_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11492_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00011_c0" stoichiometry="1" constant="true"/>
@@ -31299,7 +31886,7 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00078_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00449_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd16584_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00010_c0" stoichiometry="1" constant="true"/>
@@ -31704,8 +32291,8 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00213_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd14698_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd14954_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00056_c0" stoichiometry="1" constant="true"/>
@@ -33367,8 +33954,8 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00004_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="2" constant="true"/>
           <speciesReference species="M_cpd11475_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
@@ -34092,6 +34679,7 @@
         <listOfProducts>
           <speciesReference species="M_cpd00005_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11485_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08565"/>
@@ -34221,9 +34809,9 @@
           <speciesReference species="M_cpd11493_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="2" constant="true"/>
           <speciesReference species="M_cpd00834_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd12370_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12250"/>
@@ -35191,7 +35779,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00022_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00449_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd16584_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14650"/>
@@ -35228,6 +35816,7 @@
         <listOfProducts>
           <speciesReference species="M_cpd00005_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11489_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08565"/>
@@ -37095,8 +37684,8 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00004_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="2" constant="true"/>
           <speciesReference species="M_cpd11465_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
@@ -38664,6 +39253,7 @@
         <listOfProducts>
           <speciesReference species="M_cpd00005_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11486_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08565"/>
@@ -39507,7 +40097,6 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00070_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11493_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -39728,6 +40317,7 @@
         <listOfReactants>
           <speciesReference species="M_cpd11492_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11494_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00011_c0" stoichiometry="1" constant="true"/>
@@ -40100,6 +40690,7 @@
         <listOfProducts>
           <speciesReference species="M_cpd00045_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11493_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03550"/>
@@ -40192,8 +40783,8 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00213_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd14702_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd14954_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00056_c0" stoichiometry="1" constant="true"/>
@@ -41412,12 +42003,12 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00023_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00378_c0" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
           <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00344_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00023_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00378_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS04155"/>
@@ -41452,6 +42043,7 @@
         <listOfProducts>
           <speciesReference species="M_cpd02835_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11493_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13055"/>
@@ -42190,7 +42782,6 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11825_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15328_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -43483,9 +44074,9 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="2" constant="true"/>
           <speciesReference species="M_cpd00080_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11825_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd11493_c0" stoichiometry="1" constant="true"/>
@@ -43560,6 +44151,7 @@
         <listOfProducts>
           <speciesReference species="M_cpd00005_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11488_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08565"/>
@@ -43583,6 +44175,7 @@
         <listOfReactants>
           <speciesReference species="M_cpd11476_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11492_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00011_c0" stoichiometry="1" constant="true"/>
@@ -44477,8 +45070,8 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00449_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd01882_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd16584_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00010_c0" stoichiometry="1" constant="true"/>
@@ -44624,6 +45217,7 @@
         <listOfProducts>
           <speciesReference species="M_cpd00005_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11491_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08565"/>
@@ -46776,11 +47370,11 @@
         <listOfReactants>
           <speciesReference species="M_cpd00033_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd12005_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd14954_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00011_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd11830_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd15217_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14460"/>
@@ -49539,9 +50133,9 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="2" constant="true"/>
           <speciesReference species="M_cpd00080_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15294_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd11493_c0" stoichiometry="1" constant="true"/>
@@ -50789,12 +51383,12 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00087_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd11830_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd15217_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00013_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00125_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd12225_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd16584_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:and>
@@ -51298,8 +51892,8 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00004_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="2" constant="true"/>
           <speciesReference species="M_cpd11467_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
@@ -52487,12 +53081,12 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00449_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd16584_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00004_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00213_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd14954_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14645"/>
@@ -52671,9 +53265,9 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="2" constant="true"/>
           <speciesReference species="M_cpd00080_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15239_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd11493_c0" stoichiometry="1" constant="true"/>
@@ -53499,6 +54093,7 @@
         <listOfReactants>
           <speciesReference species="M_cpd11466_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11492_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00011_c0" stoichiometry="1" constant="true"/>
@@ -54213,9 +54808,9 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="2" constant="true"/>
           <speciesReference species="M_cpd00080_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd15277_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd11476_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd11493_c0" stoichiometry="1" constant="true"/>
@@ -54787,8 +55382,8 @@
         <listOfProducts>
           <speciesReference species="M_cpd00012_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00018_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="2" constant="true"/>
           <speciesReference species="M_cpd15294_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:and>
@@ -55924,7 +56519,6 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00037_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11484_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -57968,7 +58562,6 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11475_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
@@ -58586,8 +59179,8 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00449_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00760_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd16584_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00010_c0" stoichiometry="1" constant="true"/>
@@ -59320,6 +59913,7 @@
         <listOfReactants>
           <speciesReference species="M_cpd11470_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11492_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00011_c0" stoichiometry="1" constant="true"/>
@@ -60027,12 +60621,12 @@
         </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00005_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd11621_c0" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd11621_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00006_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd11620_c0" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd11620_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12805"/>
@@ -60086,13 +60680,17 @@
         <listOfReactants>
           <speciesReference species="M_cpd08289_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd14545_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd28259_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00002_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00084_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd11620_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00001_c0" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd21479_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd28253_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00012_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00018_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00035_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd11621_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00480"/>
@@ -60203,6 +60801,7 @@
         <listOfReactants>
           <speciesReference species="M_cpd11492_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd36635_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00011_c0" stoichiometry="1" constant="true"/>
@@ -61329,14 +61928,14 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00006_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd02465_c0" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
           <speciesReference species="M_cpd00005_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd21488_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00006_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd02465_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS07080"/>
@@ -61664,7 +62263,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00764_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd01046_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd02522_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06660"/>
@@ -62991,6 +63590,7 @@
         <listOfReactants>
           <speciesReference species="M_cpd11492_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd27180_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_cpd00011_c0" stoichiometry="1" constant="true"/>
@@ -63861,12 +64461,12 @@
           </rdf:RDF>
         </annotation>
         <listOfReactants>
-          <speciesReference species="M_cpd00013_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00040_c0" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
           <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd14545_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00013_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00040_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_rxn08502_e0" sboTerm="SBO:0000176" id="R_rxn08502_e0" name="enterobactin Fe(III) binding (spontaneous) [e0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -64231,7 +64831,6 @@
           <speciesReference species="M_cpd11463_c0" stoichiometry="0.5441666" constant="true"/>
           <speciesReference species="M_cpd11462_c0" stoichiometry="0.1911666" constant="true"/>
           <speciesReference species="M_cpd00010_c0" stoichiometry="0.00160004066244054" constant="true"/>
-          <speciesReference species="M_cpd11493_c0" stoichiometry="0.00160004066244054" constant="true"/>
           <speciesReference species="M_cpd00003_c0" stoichiometry="0.00160004066244054" constant="true"/>
           <speciesReference species="M_cpd00006_c0" stoichiometry="0.00160004066244054" constant="true"/>
           <speciesReference species="M_cpd00205_c0" stoichiometry="0.00160004066244054" constant="true"/>
@@ -64259,24 +64858,15 @@
           <speciesReference species="M_cpd00118_c0" stoichiometry="0.00160004066244054" constant="true"/>
           <speciesReference species="M_cpd00056_c0" stoichiometry="0.00160004066244054" constant="true"/>
           <speciesReference species="M_cpd15560_c0" stoichiometry="0.00160004066244054" constant="true"/>
-          <speciesReference species="M_cpd15352_c0" stoichiometry="0.00160004066244054" constant="true"/>
-          <speciesReference species="M_cpd15500_c0" stoichiometry="0.00160004066244054" constant="true"/>
-          <speciesReference species="M_cpd00166_c0" stoichiometry="0.00160004066244054" constant="true"/>
-          <speciesReference species="M_cpd15793_c0" stoichiometry="0.0248034535317025" constant="true"/>
           <speciesReference species="M_cpd15540_c0" stoichiometry="0.0248034535317025" constant="true"/>
           <speciesReference species="M_cpd15533_c0" stoichiometry="0.0248034535317025" constant="true"/>
           <speciesReference species="M_cpd03736_c0" stoichiometry="0.032079293220334" constant="true"/>
           <speciesReference species="M_cpd02229_c0" stoichiometry="0.032079293220334" constant="true"/>
-          <speciesReference species="M_cpd15665_c0" stoichiometry="0.032079293220334" constant="true"/>
           <speciesReference species="M_cpd00002_c0" stoichiometry="40" constant="true"/>
           <speciesReference species="M_cpd00001_c0" stoichiometry="40" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_cpd12370_c0" stoichiometry="0.00160004066244054" constant="true"/>
           <speciesReference species="M_cpd00009_c0" stoichiometry="39.9983999593376" constant="true"/>
-          <speciesReference species="M_cpd01997_c0" stoichiometry="0.00160004066244054" constant="true"/>
-          <speciesReference species="M_cpd03422_c0" stoichiometry="0.00160004066244054" constant="true"/>
-          <speciesReference species="M_cpd15666_c0" stoichiometry="0.032079293220334" constant="true"/>
           <speciesReference species="M_cpd00008_c0" stoichiometry="40" constant="true"/>
           <speciesReference species="M_cpd00067_c0" stoichiometry="40" constant="true"/>
           <speciesReference species="M_cpd11416_c0" stoichiometry="1" constant="true"/>
@@ -64799,8 +65389,29 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00418_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00418_e0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_FeS_cluster_biosynth" sboTerm="SBO:0000176" id="R_FeS_cluster_biosynth" name="[4Fe4S] iron-sulfur cluster biosynthesis" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00002_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00084_c0" stoichiometry="4" constant="true"/>
+          <speciesReference species="M_cpd00982_c0" stoichiometry="3" constant="true"/>
+          <speciesReference species="M_cpd10515_c0" stoichiometry="4" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00008_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00009_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00015_c0" stoichiometry="3" constant="true"/>
+          <speciesReference species="M_cpd00035_c0" stoichiometry="4" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="10" constant="true"/>
+          <speciesReference species="M_cpd24682_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13530"/>
         </fbc:geneProductAssociation>
@@ -64821,6 +65432,14 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd03091_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00128_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd15380_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15365"/>
         </fbc:geneProductAssociation>
@@ -64838,6 +65457,12 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd15380_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd15380_e0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_rxn06591_c0" sboTerm="SBO:0000176" id="R_rxn06591_c0" name="L-glutamate-semialdehyde: NADP+ oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -64856,6 +65481,16 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00005_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd12227_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00006_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd02345_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd11912_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS07325"/>
         </fbc:geneProductAssociation>
@@ -64878,8 +65513,25 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00007_c0" stoichiometry="3" constant="true"/>
+          <speciesReference species="M_cpd00791_c0" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00001_c0" stoichiometry="6" constant="true"/>
+          <speciesReference species="M_cpd01476_c0" stoichiometry="2" constant="true"/>
+        </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_fe3_reduction" sboTerm="SBO:0000176" id="R_fe3_reduction" name="Reduction of Fe3+ by bacterioferritin-associated ferredoxin" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub"/>
+      <reaction metaid="meta_R_fe3_reduction" sboTerm="SBO:0000176" id="R_fe3_reduction" name="Reduction of Fe3+ by bacterioferritin-associated ferredoxin" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_cpd10516_c0" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd11620_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd10515_c0" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd11621_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
       <reaction metaid="meta_R_rxn01213_c0" sboTerm="SBO:0000176" id="R_rxn01213_c0" name="Geranyl diphosphate synthase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -64903,6 +65555,15 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00113_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00202_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00012_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00283_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_rxn03087_c0" sboTerm="SBO:0000176" id="R_rxn03087_c0" name="N-Succinyl-L-2,6-diaminoheptanedioate:2-oxoglutarate amino-transferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -64923,6 +65584,14 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00023_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd02724_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00024_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd02698_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_rxn01637_c0" sboTerm="SBO:0000176" id="R_rxn01637_c0" name="N2-Acetyl-L-ornithine:2-oxoglutarate aminotransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -64943,6 +65612,14 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00023_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00918_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00024_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00342_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_rxn16823_c0" sboTerm="SBO:0000176" id="R_rxn16823_c0" name="thiazole tautomerase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -64960,8 +65637,21 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd21479_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd21480_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_cpd01042_transport" sboTerm="SBO:0000176" id="R_cpd01042_transport" name="p-Cresol transport by diffusion" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub"/>
+      <reaction metaid="meta_R_cpd01042_transport" sboTerm="SBO:0000176" id="R_cpd01042_transport" name="p-Cresol transport by diffusion" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_cpd01042_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd01042_e0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
       <reaction metaid="meta_R_rxn08642_c0" sboTerm="SBO:0000185" id="R_rxn08642_c0" name="Glycerol-3-phosphate:phosphate antiport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -64976,6 +65666,14 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00009_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00080_e0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00009_e0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00080_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_rxn05301_c0" sboTerm="SBO:0000185" id="R_rxn05301_c0" name="L-Tyrosine:proton symport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -64991,6 +65689,14 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_e0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00069_e0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00069_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_rxn05669_c0" sboTerm="SBO:0000185" id="R_rxn05669_c0" name="L-Valine:proton symport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -65005,6 +65711,14 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_e0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00156_e0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00156_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_rxn05242_c0" sboTerm="SBO:0000185" id="R_rxn05242_c0" name="L-Valine:sodium symport" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -65020,8 +65734,28 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00156_e0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00971_e0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00156_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00971_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
-      <reaction id="R_rxn05171_c0" name="nitrate-transporting ATPase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub"/>
+      <reaction id="R_rxn05171_c0" name="nitrate-transporting ATPase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00002_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00209_e0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00008_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00009_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00209_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
       <reaction metaid="meta_R_rxn00979_c0" sboTerm="SBO:0000176" id="R_rxn00979_c0" name="glycolaldehyde:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -65039,11 +65773,28 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00229_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00004_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00139_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15990"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_cpd23538_trans" sboTerm="SBO:0000185" id="R_cpd23538_trans" name="(S)-2,3-dihydroxypropane-1-sulfonate:sodium symport" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub"/>
+      <reaction metaid="meta_R_cpd23538_trans" sboTerm="SBO:0000185" id="R_cpd23538_trans" name="(S)-2,3-dihydroxypropane-1-sulfonate:sodium symport" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_cpd23538_e0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd23538_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
       <reaction metaid="meta_R_rxn22083_c0" sboTerm="SBO:0000176" id="R_rxn22083_c0" name="(S)-sulfopropanediol 2-dehydrogenase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -65058,6 +65809,15 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00006_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd23538_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00005_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd23539_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_rxn22084_c0" sboTerm="SBO:0000176" id="R_rxn22084_c0" name="(R)-sulfopropanediol 2-dehydrogenase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -65072,6 +65832,15 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00004_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd23539_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd20923_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_rxn16387_c0" sboTerm="SBO:0000176" id="R_rxn16387_c0" name="(R)-2,3-dihydroxypropane-1-sulfonate:NAD+ 3-oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -65088,6 +65857,16 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00003_c0" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd20923_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00004_c0" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="3" constant="true"/>
+          <speciesReference species="M_cpd08367_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_rxn04934_c0" sboTerm="SBO:0000176" id="R_rxn04934_c0" name="(2R)-3-sulfolactate:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -65106,6 +65885,15 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd08367_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00004_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd03285_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_rxn07450_c0" sboTerm="SBO:0000176" id="R_rxn07450_c0" name="L-cysteate bisulfite-lyase (deaminating)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -65122,9 +65910,32 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00395_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00013_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00020_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00081_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
-      <reaction id="R_rxn10480_c0" name="CO transporter via diffusion" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub"/>
-      <reaction id="R_rxn09799_c0" name="Transport of (R)-2-oxoisovalerate, mitochondrial" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub"/>
+      <reaction id="R_rxn10480_c0" name="CO transporter via diffusion" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_cpd00204_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00204_e0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_rxn09799_c0" name="Transport of (R)-2-oxoisovalerate, mitochondrial" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_cpd00123_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00123_e0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
       <reaction metaid="meta_R_rxn47974_c0" id="R_rxn47974_c0" name="3-Mercaptopyruvate:sulfide sulfurtransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -65140,6 +65951,16 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00706_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd11421_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00020_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00239_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd11420_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02150"/>
         </fbc:geneProductAssociation>
@@ -65156,6 +65977,14 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00378_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_e0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00378_e0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
       <reaction metaid="meta_R_rxn00510_c0" sboTerm="SBO:0000176" id="R_rxn00510_c0" name="N6-(L-1,3-Dicarboxypropyl)-L-lysine:NAD+ oxidoreductase (L-lysine-forming)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -65174,6 +66003,17 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00004_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00024_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00039_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00351_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15195"/>
         </fbc:geneProductAssociation>
@@ -65192,6 +66032,14 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00024_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00467_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00023_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd03284_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11065"/>
         </fbc:geneProductAssociation>
@@ -65210,6 +66058,16 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd09206_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00004_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00339_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15990"/>
         </fbc:geneProductAssociation>
@@ -65229,6 +66087,16 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00007_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00756_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00025_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00055_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00183_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS05325"/>
         </fbc:geneProductAssociation>
@@ -65248,6 +66116,14 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00009_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00249_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00092_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00475_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS05325"/>
         </fbc:geneProductAssociation>
@@ -65266,6 +66142,15 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00006_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00306_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00005_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00261_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11090"/>
         </fbc:geneProductAssociation>
@@ -65285,6 +66170,14 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00207_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00475_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00009_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00311_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS05325"/>
         </fbc:geneProductAssociation>
@@ -65303,6 +66196,14 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00729_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00013_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00339_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08805"/>
         </fbc:geneProductAssociation>
@@ -65321,6 +66222,14 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00081_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00706_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00020_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00268_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02150"/>
         </fbc:geneProductAssociation>
@@ -65339,6 +66248,15 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd02646_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00004_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd01932_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08640"/>
         </fbc:geneProductAssociation>
@@ -65357,6 +66275,15 @@
             </rdf:Description>
           </rdf:RDF>
         </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd09253_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00004_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd09254_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08640"/>
         </fbc:geneProductAssociation>
