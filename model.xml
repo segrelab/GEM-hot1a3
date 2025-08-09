@@ -231,25 +231,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_cpd00213_c0" sboTerm="SBO:0000247" id="M_cpd00213_c0" name="Lipoamide [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C8H15NOS2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_cpd00213_c0">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00213"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C8H15NOS2/c9-8(10)4-2-1-3-7-5-6-11-12-7/h7H,1-6H2,(H2,9,10)/t7-/m1/s1"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchikey/FCCDDURTIIUXBY-SSDOTTSWSA-N"/>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/lpam"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00248"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1024"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:LIPOAMIDE"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_cpd14700_c0" sboTerm="SBO:0000247" id="M_cpd14700_c0" name="2-Methyl-1-hydroxypropyl-TPP [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C16H25N4O8P2S">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -7641,25 +7622,6 @@
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM648"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM90905"/>
                   <rdf:li rdf:resource="https://identifiers.org/biocyc/META:DIAMINO-OH-PHOSPHORIBOSYLAMINO-PYR"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_M_cpd00449_c0" sboTerm="SBO:0000247" id="M_cpd00449_c0" name="Dihydrolipoamide [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C8H17NOS2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_cpd00449_c0">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00449"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C8H17NOS2/c9-8(10)4-2-1-3-7(12)5-6-11/h7,11-12H,1-6H2,(H2,9,10)/t7-/m1/s1"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchikey/VLYUGYAKYZETRF-SSDOTTSWSA-N"/>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/dhlam"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00579"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1277"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:DIHYDROLIPOAMIDE"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15645,38 +15607,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_cpd12005_c0" sboTerm="SBO:0000247" id="M_cpd12005_c0" name="Lipoylprotein [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="CHRS2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_cpd12005_c0">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd12005"/>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/lpro"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02051"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM998"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_M_cpd11830_c0" sboTerm="SBO:0000247" id="M_cpd11830_c0" name="S-Aminomethyldihydrolipoylprotein [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C2H7NRS2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_cpd11830_c0">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd11830"/>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/alpro"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C01242"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM81221"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_cpd11621_c0" sboTerm="SBO:0000247" id="M_cpd11621_c0" name="Oxidizedferredoxin [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="6" fbc:chemicalFormula="Fe2R4S6">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -16939,22 +16869,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_cpd12225_c0" sboTerm="SBO:0000247" id="M_cpd12225_c0" name="Dihydrolipolprotein [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="CH3RS2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_cpd12225_c0">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd12225"/>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/dhlpro"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C02972"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1663"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_cpd03585_c0" sboTerm="SBO:0000247" id="M_cpd03585_c0" name="KDO-lipid IV(A) [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-5" fbc:chemicalFormula="C76H137N2O30P2">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -17995,23 +17909,6 @@
                   <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C12248"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1805"/>
                   <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CPD-5821"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_M_cpd15277_c0" sboTerm="SBO:0000247" id="M_cpd15277_c0" name="Palmitoyl-ACP [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C27H51N2O8PRS">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_cpd15277_c0">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd15277"/>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/palmACP"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM162320"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:Palmitoyl-ACPs"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:Palmitoyl-PKS2"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -19598,26 +19495,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_cpd28259_c0" sboTerm="SBO:0000247" id="M_cpd28259_c0" name="Thiocarboxyadenylated-ThiS-Proteins [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C4H7N2O2RS">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_cpd28259_c0">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd28259"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C20728"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM9152"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM148019"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:Thiocarboxyadenylated-ThiS-Proteins"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:Thiocarboxylated-URM1"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:Thiocarboxylated-TtuB"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:Thiocarboxylated-CysO"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_cpd21479_c0" sboTerm="SBO:0000247" id="M_cpd21479_c0" name="2-[(2R,5Z)-2-Carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C7H7NO6PS">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -20508,26 +20385,6 @@
                   <rdf:li rdf:resource="https://identifiers.org/inchikey/GLNFBGKHGHVPRL-IYOUNJFTSA-L"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM165083"/>
                   <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CPD-18260"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_M_cpd01046_c0" sboTerm="SBO:0000247" id="M_cpd01046_c0" name="Allysine [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H11NO3">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_cpd01046_c0">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd01046"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C6H11NO3/c7-5(6(9)10)3-1-2-4-8/h4-5H,1-3,7H2,(H,9,10)/t5-/m0/s1"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchikey/GFXYTQPNNXGICT-YFKPBYRVSA-N"/>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/L2aadp6sa"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C04076"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM219"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM89905"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:ALLYSINE"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -21732,20 +21589,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_cpd15793_c0" sboTerm="SBO:0000247" id="M_cpd15793_c0" name="Stearoylcardiolipin (B. subtilis) [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C81H156O17P2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_cpd15793_c0">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd15793"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM6440"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_cpd11416_c0" sboTerm="SBO:0000247" id="M_cpd11416_c0" name="Biomass [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -21754,26 +21597,6 @@
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd11416"/>
                   <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/BIOMASS"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_M_cpd01997_c0" sboTerm="SBO:0000247" id="M_cpd01997_c0" name="Dimethylbenzimidazole [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C9H10N2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_cpd01997_c0">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd01997"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C9H10N2/c1-6-3-8-9(4-7(6)2)11-5-10-8/h3-5H,1-2H3,(H,10,11)"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchikey/LJUQGASMPRMWIW-UHFFFAOYSA-N"/>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/dmbzid"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C03114"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM1531"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM50981"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:DIMETHYLBENZIMIDAZOLE"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
