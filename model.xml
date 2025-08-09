@@ -28649,6 +28649,7 @@
               <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS04010"/>
               <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02275"/>
             </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS19360"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -37039,6 +37040,7 @@
               <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS04010"/>
               <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02275"/>
             </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS19360"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -51829,7 +51831,10 @@
           <speciesReference species="M_cpd00067_c0" stoichiometry="2" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11975"/>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11975"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15990"/>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn09449_c0" sboTerm="SBO:0000176" id="R_rxn09449_c0" name="acyl-coenzyme A ligase [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -57506,6 +57511,7 @@
               <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02780"/>
               <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS18260"/>
             </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15990"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
