@@ -65360,6 +65360,9 @@
           <speciesReference species="M_cpd10515_c0" stoichiometry="2" constant="true"/>
           <speciesReference species="M_cpd11621_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS05920"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn01213_c0" sboTerm="SBO:0000176" id="R_rxn01213_c0" name="Geranyl diphosphate synthase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -77975,6 +77978,7 @@
       <fbc:geneProduct fbc:id="G_ACZ81_RS05325" fbc:name="G_ACZ81_RS05325" fbc:label="G_ACZ81_RS05325"/>
       <fbc:geneProduct fbc:id="G_ACZ81_RS11090" fbc:name="G_ACZ81_RS11090" fbc:label="G_ACZ81_RS11090"/>
       <fbc:geneProduct fbc:id="G_ACZ81_RS08805" fbc:name="G_ACZ81_RS08805" fbc:label="G_ACZ81_RS08805"/>
+      <fbc:geneProduct fbc:id="G_ACZ81_RS05920" fbc:name="G_ACZ81_RS05920" fbc:label="G_ACZ81_RS05920"/>
     </fbc:listOfGeneProducts>
   </model>
 </sbml>
