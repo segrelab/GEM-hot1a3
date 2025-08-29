@@ -20191,24 +20191,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_cpd05262_c0" sboTerm="SBO:0000247" id="M_cpd05262_c0" name="galacturonate [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H9O7">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_cpd05262_c0">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd05262"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C6H10O7/c7-1-2(8)4(5(10)11)13-6(12)3(1)9/h1-4,6-9,12H,(H,10,11)/p-1/t1-,2+,3+,4-,6+/m0/s1"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchikey/AEMOLEFTQBMNLQ-DTEWXJGMSA-M"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C08348"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM114564"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CPD-12524"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_cpd00724_c0" sboTerm="SBO:0000247" id="M_cpd00724_c0" name="alpha-D-Galactose [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H12O6">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -61152,31 +61134,6 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11745"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_rxn15293_c0" sboTerm="SBO:0000176" id="R_rxn15293_c0" name="D-Galacturonate aldose-ketose-isomerase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_rxn15293_c0">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn15293"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01983"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/5.3.1.12"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.orthology/K01812"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_cpd05262_c0" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_cpd00437_c0" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11880"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn15121_c0" sboTerm="SBO:0000176" id="R_rxn15121_c0" name="ATP:D-galactose 1-phosphotransferase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
