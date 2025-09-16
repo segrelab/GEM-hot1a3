@@ -12749,25 +12749,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_cpd00413_c0" sboTerm="SBO:0000247" id="M_cpd00413_c0" name="Glutaryl-CoA [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C26H38N7O19P3S">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_cpd00413_c0">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00413"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C26H42N7O19P3S/c1-26(2,21(39)24(40)29-7-6-15(34)28-8-9-56-17(37)5-3-4-16(35)36)11-49-55(46,47)52-54(44,45)48-10-14-20(51-53(41,42)43)19(38)25(50-14)33-13-32-18-22(27)30-12-31-23(18)33/h12-14,19-21,25,38-39H,3-11H2,1-2H3,(H,28,34)(H,29,40)(H,35,36)(H,44,45)(H,46,47)(H2,27,30,31)(H2,41,42,43)/p-5/t14-,19-,20-,21+,25-/m1/s1"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchikey/SYKWLIJQEHRDNH-CKRMAKSASA-I"/>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/glutcoa"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00527"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM382"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:GLUTARYL-COA"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_cpd00650_c0" sboTerm="SBO:0000247" id="M_cpd00650_c0" name="Crotonyl-CoA [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C25H36N7O17P3S">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -22082,14 +22063,14 @@
           <speciesReference species="M_cpd11441_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
+          <fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12595"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11530"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16200"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12340"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03600"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03410"/>
-          </fbc:and>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn00646_c0" sboTerm="SBO:0000176" id="R_rxn00646_c0" name="L-glutamate:L-cysteine gamma-ligase (ADP-forming) [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -22406,12 +22387,18 @@
           <speciesReference species="M_cpd03114_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+          <fbc:or>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
+            </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08650"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09365"/>
-          </fbc:and>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn05457_c0" sboTerm="SBO:0000176" id="R_rxn05457_c0" name="[Acyl-carrier-protein] acetyltransferase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -23082,14 +23069,7 @@
         <fbc:geneProductAssociation>
           <fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02035"/>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15390"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12370"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS04785"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12565"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06755"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS19520"/>
-            </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02040"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -25439,12 +25419,17 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08280"/>
             <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
               <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08655"/>
             </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08655"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08280"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15810"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -26169,18 +26154,16 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08660"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09955"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11295"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14115"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10835"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03205"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00445"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13940"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11100"/>
-            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10835"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08660"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03205"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13940"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11295"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00445"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11100"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09955"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14115"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08270"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -27296,19 +27279,15 @@
         <fbc:geneProductAssociation>
           <fbc:or>
             <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06280"/>
               <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11020"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12490"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08650"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
             </fbc:and>
             <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08650"/>
               <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09365"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
             </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08650"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09365"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -27911,17 +27890,18 @@
           <speciesReference species="M_cpd02060_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08660"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09955"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11295"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14115"/>
+          <fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10835"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08660"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03205"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00445"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13940"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11295"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00445"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11100"/>
-          </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09955"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14115"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08270"/>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn00913_c0" sboTerm="SBO:0000176" id="R_rxn00913_c0" name="Guanosine 5&apos;-monophosphate phosphohydrolase [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -28858,14 +28838,14 @@
           <speciesReference species="M_cpd11439_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
+          <fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12595"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11530"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16200"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12340"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03600"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03410"/>
-          </fbc:and>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn00612_c0" sboTerm="SBO:0000176" id="R_rxn00612_c0" name="sn-Glycerol-3-phosphate:NADP+ 2-oxidoreductase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -29524,16 +29504,7 @@
           <speciesReference species="M_cpd15561_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS17970"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16055"/>
-            </fbc:and>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS17970"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16055"/>
-            </fbc:and>
-          </fbc:or>
+          <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS17970"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn02798_c0" sboTerm="SBO:0000176" id="R_rxn02798_c0" name="Estrone 3-sulfate sulfohydrolase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -30216,14 +30187,22 @@
           <speciesReference species="M_cpd03129_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06280"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11020"/>
+          <fbc:or>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
+            </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12490"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08650"/>
-          </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06280"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11020"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08260"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09960"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14040"/>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn11946_c0" sboTerm="SBO:0000176" id="R_rxn11946_c0" name="R05614 [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -30484,14 +30463,22 @@
           <speciesReference species="M_cpd02060_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06280"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11020"/>
+          <fbc:or>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
+            </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12490"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08650"/>
-          </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06280"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11020"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08260"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09960"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14040"/>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn01280_c0" sboTerm="SBO:0000176" id="R_rxn01280_c0" name="(R)-Glycerate:NAD+ oxidoreductase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -31099,30 +31086,12 @@
           <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS04025"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS04030"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03355"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS04035"/>
-            </fbc:and>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13655"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS04690"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10270"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03160"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS17855"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS18070"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06700"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06840"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS18465"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00590"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS17020"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14240"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS05435"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09020"/>
-            </fbc:and>
-          </fbc:or>
+          <fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS04025"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS04030"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03355"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS04035"/>
+          </fbc:and>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn01872_c0" sboTerm="SBO:0000176" id="R_rxn01872_c0" name="succinyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-succinyltransferase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -31312,47 +31281,6 @@
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16730"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS17700"/>
           </fbc:and>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_rxn00499_c0" sboTerm="SBO:0000176" id="R_rxn00499_c0" name="(S)-Lactate:NAD+ oxidoreductase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_rxn00499_c0">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn00499"/>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/LDH_L"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R00703"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/23447"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR101040"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:L-LACTATE-DEHYDROGENASE-RXN"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.27"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.orthology/K00016"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_cpd00003_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00159_c0" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_cpd00004_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00020_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS17970"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16055"/>
-            </fbc:and>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS17970"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16055"/>
-            </fbc:and>
-          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn08844_c0" sboTerm="SBO:0000176" id="R_rxn08844_c0" name="Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C18:1) [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -31906,12 +31834,18 @@
           <speciesReference species="M_cpd12689_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+          <fbc:or>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
+            </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08650"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09365"/>
-          </fbc:and>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn03869_c0" sboTerm="SBO:0000176" id="R_rxn03869_c0" name="Acylamide aminohydrolase [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -32418,14 +32352,22 @@
           <speciesReference species="M_cpd03126_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06280"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11020"/>
+          <fbc:or>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
+            </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12490"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08650"/>
-          </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06280"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11020"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08260"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09960"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14040"/>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn09562_c0" sboTerm="SBO:0000176" id="R_rxn09562_c0" name="Guanylate kinase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -36624,14 +36566,14 @@
           <speciesReference species="M_cpd11434_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
+          <fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12595"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11530"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16200"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12340"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03600"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03410"/>
-          </fbc:and>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn00214_c0" sboTerm="SBO:0000176" id="R_rxn00214_c0" name="UDP-glucose 4-epimerase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -37187,18 +37129,16 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08660"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09955"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11295"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14115"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10835"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03205"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00445"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13940"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11100"/>
-            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10835"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08660"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03205"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13940"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11295"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00445"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11100"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09955"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14115"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08270"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -38035,16 +37975,9 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16920"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02015"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11995"/>
-            </fbc:and>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16920"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02015"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11995"/>
-            </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02015"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11995"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16920"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16130"/>
           </fbc:or>
         </fbc:geneProductAssociation>
@@ -38661,50 +38594,6 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS01025"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction metaid="meta_R_rxn01802_c0" sboTerm="SBO:0000176" id="R_rxn01802_c0" name="Glutaryl-CoA:(acceptor) 2,3-oxidoreductase (decarboxylating) [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_R_rxn01802_c0">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn01802"/>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/GLUTCOADHc"/>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/GLTCOAD"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R02487"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/13392"/>
-                  <rdf:li rdf:resource="https://identifiers.org/rhea/30850"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR100293"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.99.7"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.orthology/K00252"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="M_cpd00015_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00413_c0" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_cpd00011_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00650_c0" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cpd00982_c0" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08660"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09955"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11295"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14115"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10835"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03205"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00445"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13940"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11100"/>
-          </fbc:and>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn09022_c0" sboTerm="SBO:0000176" id="R_rxn09022_c0" name="O16 antigen polymerase (periplasm) [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -39502,10 +39391,7 @@
           <speciesReference species="M_cpd00110_c0" stoichiometry="2" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS17970"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16055"/>
-          </fbc:and>
+          <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16055"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn08126_c0" sboTerm="SBO:0000176" id="R_rxn08126_c0" name="Amylomaltase (maltotriose) [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -40007,18 +39893,16 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10835"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08660"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03205"/>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08660"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09955"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11295"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14115"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10835"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03205"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00445"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13940"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11100"/>
-            </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13940"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11295"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00445"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11100"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09955"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14115"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08270"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -40334,14 +40218,14 @@
           <speciesReference species="M_cpd15238_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
+          <fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12595"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11530"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16200"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12340"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03600"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03410"/>
-          </fbc:and>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn04938_c0" sboTerm="SBO:0000176" id="R_rxn04938_c0" name="S-(hydroxymethyl)glutathione:NADP+ oxidoreductase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -40591,11 +40475,9 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13675"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14895"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11835"/>
-            </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13675"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14895"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11835"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS17380"/>
           </fbc:or>
         </fbc:geneProductAssociation>
@@ -40977,12 +40859,18 @@
           <speciesReference species="M_cpd03119_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+          <fbc:or>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
+            </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08650"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09365"/>
-          </fbc:and>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn04139_c0" sboTerm="SBO:0000176" id="R_rxn04139_c0" name="2-Octaprenyl-3-methyl-6-methoxy-1,4-benzoquinone ,NADPH2:oxygen oxidoreductase [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -41213,14 +41101,22 @@
           <speciesReference species="M_cpd03572_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06280"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11020"/>
+          <fbc:or>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
+            </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12490"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08650"/>
-          </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06280"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11020"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08260"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09960"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14040"/>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn00735_c0" sboTerm="SBO:0000176" id="R_rxn00735_c0" name="(2R,3S)-3-methylmalate:NAD+ oxidoreductase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -41333,12 +41229,17 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08280"/>
             <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
               <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08655"/>
             </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08655"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08280"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15810"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -41856,14 +41757,22 @@
           <speciesReference species="M_cpd02125_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06280"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11020"/>
+          <fbc:or>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
+            </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12490"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08650"/>
-          </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06280"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11020"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08260"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09960"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14040"/>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn08089_c0" sboTerm="SBO:0000176" id="R_rxn08089_c0" name="1-octadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:1) [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -41936,11 +41845,17 @@
           <speciesReference species="M_cpd00023_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS07090"/>
+          <fbc:or>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15345"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15340"/>
+            </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS07090"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS07085"/>
+            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13670"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS07085"/>
-          </fbc:and>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn10269_c0" sboTerm="SBO:0000176" id="R_rxn10269_c0" name="anteisopentadecanoyl-Phosphatidylglycerophosphate phosphohydrolase [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -42439,12 +42354,17 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08280"/>
             <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
               <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08655"/>
             </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08655"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08280"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15810"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -42843,17 +42763,8 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09420"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS20180"/>
-            </fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15345"/>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS04105"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08205"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15340"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15720"/>
-            </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09420"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS20180"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -43572,16 +43483,7 @@
           <speciesReference species="M_cpd15499_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS17970"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16055"/>
-            </fbc:and>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS17970"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16055"/>
-            </fbc:and>
-          </fbc:or>
+          <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS17970"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn00947_c0" sboTerm="SBO:0000176" id="R_rxn00947_c0" name="Palmitate:CoA ligase (AMP-forming) [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -43623,14 +43525,14 @@
           <speciesReference species="M_cpd00134_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
+          <fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12595"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11530"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16200"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12340"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03600"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03410"/>
-          </fbc:and>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn03247_c0" sboTerm="SBO:0000176" id="R_rxn03247_c0" name="(S)-Hydroxyoctanoyl-CoA hydro-lyase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -43667,14 +43569,22 @@
           <speciesReference species="M_cpd03130_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06280"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11020"/>
+          <fbc:or>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
+            </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12490"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08650"/>
-          </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06280"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11020"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08260"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09960"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14040"/>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn10210_c0" sboTerm="SBO:0000176" id="R_rxn10210_c0" name="isohexadecanoyl-glycerol-3-phosphate O-acyltransferase [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -43987,14 +43897,14 @@
           <speciesReference species="M_cpd00279_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
+          <fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12595"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11530"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16200"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12340"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03600"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03410"/>
-          </fbc:and>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn00410_c0" sboTerm="SBO:0000176" id="R_rxn00410_c0" name="UTP:ammonia ligase (ADP-forming) [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -45160,12 +45070,17 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08280"/>
             <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
               <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08655"/>
             </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08655"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08280"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15810"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -46658,18 +46573,16 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08660"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09955"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11295"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14115"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10835"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03205"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00445"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13940"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11100"/>
-            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10835"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08660"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03205"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13940"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11295"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00445"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11100"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09955"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14115"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08270"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -46808,14 +46721,14 @@
           <speciesReference species="M_cpd11435_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
+          <fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12595"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11530"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16200"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12340"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03600"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03410"/>
-          </fbc:and>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn03136_c0" sboTerm="SBO:0000176" id="R_rxn03136_c0" name="1-(5&apos;-Phosphoribosyl)-5-amino-4-(N-succinocarboxamide)-imidazole AMP-lyase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -48385,12 +48298,18 @@
           <speciesReference species="M_cpd03123_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+          <fbc:or>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
+            </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08650"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09365"/>
-          </fbc:and>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn04113_c0" sboTerm="SBO:0000176" id="R_rxn04113_c0" name="isopentenyl-diphosphate:NAD(P)+ oxidoreductase [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -49341,11 +49260,12 @@
           <speciesReference species="M_cpd00157_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
+          <fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13675"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14895"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11835"/>
-          </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS17380"/>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn10202_c0" sboTerm="SBO:0000176" id="R_rxn10202_c0" name="glycerol-3-phosphate: acyl-coa acyltransferase (16:0) [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -49470,13 +49390,17 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08280"/>
             <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
               <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
+            </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
               <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08655"/>
             </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08655"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08280"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15810"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -49718,14 +49642,14 @@
           <speciesReference species="M_cpd11432_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
+          <fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12595"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11530"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16200"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12340"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03600"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03410"/>
-          </fbc:and>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn00241_c0" sboTerm="SBO:0000176" id="R_rxn00241_c0" name="GTP phosphohydrolase [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -50715,14 +50639,14 @@
           <speciesReference species="M_cpd00327_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
+          <fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12595"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11530"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16200"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12340"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03600"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03410"/>
-          </fbc:and>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn05323_c0" sboTerm="SBO:0000176" id="R_rxn05323_c0" name="Tetradecanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing) [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -51136,14 +51060,14 @@
           <speciesReference species="M_cpd11437_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
+          <fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12595"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11530"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16200"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12340"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03600"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03410"/>
-          </fbc:and>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn02056_c0" sboTerm="SBO:0000176" id="R_rxn02056_c0" name="S-Adenosyl-L-methionine:uroporphyrin-III C-methyltransferase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -51442,12 +51366,18 @@
           <speciesReference species="M_cpd03117_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+          <fbc:or>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
+            </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08650"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09365"/>
-          </fbc:and>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn01924_c0" sboTerm="SBO:0000176" id="R_rxn01924_c0" name="isobutyryl-CoA dehydrogenase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -53000,14 +52930,22 @@
           <speciesReference species="M_cpd03127_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06280"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11020"/>
+          <fbc:or>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
+            </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12490"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08650"/>
-          </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06280"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11020"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08260"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09960"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14040"/>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn01521_c0" sboTerm="SBO:0000176" id="R_rxn01521_c0" name="2&apos;-Deoxyuridine 5&apos;-monophosphate phosphohydrolase [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -53401,11 +53339,8 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08205"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15340"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15720"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS04105"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15345"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15340"/>
           </fbc:and>
         </fbc:geneProductAssociation>
       </reaction>
@@ -54586,18 +54521,16 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08660"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09955"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11295"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14115"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10835"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03205"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00445"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13940"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11100"/>
-            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10835"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08660"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03205"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13940"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11295"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00445"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11100"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09955"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14115"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08270"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -54887,19 +54820,16 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03205"/>
-            <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08660"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09955"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11295"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14115"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10835"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03205"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00445"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13940"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11100"/>
-            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10835"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08660"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03205"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13940"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11295"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00445"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11100"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09955"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14115"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08270"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -55003,11 +54933,12 @@
           <speciesReference species="M_cpd00646_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
+          <fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS13675"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14895"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11835"/>
-          </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS17380"/>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn01662_c0" sboTerm="SBO:0000176" id="R_rxn01662_c0" name="N6-(L-1,3-Dicarboxypropyl)-L-lysine:NAD+ oxidoreductase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -55490,14 +55421,22 @@
           <speciesReference species="M_cpd00650_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06280"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11020"/>
+          <fbc:or>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
+            </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12490"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08650"/>
-          </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06280"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11020"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08260"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09960"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14040"/>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn01858_c0" sboTerm="SBO:0000176" id="R_rxn01858_c0" name="Deoxyadenosine aminohydrolase [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -56065,14 +56004,22 @@
           <speciesReference species="M_cpd03125_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06280"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11020"/>
+          <fbc:or>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
+            </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12490"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08650"/>
-          </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06280"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11020"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08260"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09960"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS14040"/>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn02465_c0" sboTerm="SBO:0000176" id="R_rxn02465_c0" name="N-acetyl-L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphrylating) [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -57404,12 +57351,17 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08280"/>
             <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
               <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
-              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08655"/>
             </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08655"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08280"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15810"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -57616,12 +57568,18 @@
           <speciesReference species="M_cpd03121_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+          <fbc:or>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02650"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02645"/>
+            </fbc:and>
+            <fbc:and>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06155"/>
+            </fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS08650"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06160"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS09365"/>
-          </fbc:and>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn02144_c0" sboTerm="SBO:0000176" id="R_rxn02144_c0" name="4-carboxymethylbut-3-en-4-olide enol-lactonohydrolase [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -58016,14 +57974,14 @@
           <speciesReference species="M_cpd15274_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
+          <fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12595"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11530"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16200"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12340"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03600"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03410"/>
-          </fbc:and>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn00525_c0" sboTerm="SBO:0000176" id="R_rxn00525_c0" name="L-arogenate:NAD+ oxidoreductase [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -58843,14 +58801,14 @@
           <speciesReference species="M_cpd01695_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:and>
+          <fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12595"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS11530"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS16200"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS12340"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03600"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03410"/>
-          </fbc:and>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn03445_c0" sboTerm="SBO:0000176" id="R_rxn03445_c0" name="O-Phospho-4-hydroxy-L-threonine:2-oxoglutarate aminotransferase [c0]" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -59901,11 +59859,13 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02890"/>
+            <fbc:or>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS02890"/>
+              <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03190"/>
+            </fbc:or>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10380"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10400"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10375"/>
-            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03190"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10385"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10390"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS10405"/>
@@ -59943,6 +59903,7 @@
           <fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06695"/>
             <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15375"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS06700"/>
           </fbc:and>
         </fbc:geneProductAssociation>
       </reaction>
@@ -62542,6 +62503,13 @@
           <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd10516_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00580"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00585"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS00590"/>
+          </fbc:and>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn01208_c0" sboTerm="SBO:0000176" id="R_rxn01208_c0" name="R01652 [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -64133,6 +64101,13 @@
           <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00209_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03150"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03155"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS03160"/>
+          </fbc:and>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn00979_c0" sboTerm="SBO:0000176" id="R_rxn00979_c0" name="glycolaldehyde:NAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -64743,6 +64718,46 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS17515"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="meta_R_rxn08762_c0" sboTerm="SBO:0000185" id="R_rxn08762_c0" name="K+ importing ATPase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_rxn08762_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn08762"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/7.2.2.6"/>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/Kabc"/>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/Kabcpp"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:3.6.3.10-RXN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:3.6.3.12-RXN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:TRANS-RXN-2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR100657"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00002_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00205_e0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00008_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00009_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00205_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:and>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS05455"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS05450"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS05445"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS05440"/>
+            <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS05435"/>
+          </fbc:and>
         </fbc:geneProductAssociation>
       </reaction>
     </listOfReactions>
@@ -65528,84 +65543,6 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/WP_014975490.1"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS15390" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS15390" fbc:name="ACZ81_RS15390" fbc:label="G_ACZ81_RS15390">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_ACZ81_RS15390">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_014950553.1"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS12370" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS12370" fbc:name="ACZ81_RS12370" fbc:label="G_ACZ81_RS12370">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_ACZ81_RS12370">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_014949960.1"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS04785" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS04785" fbc:name="ACZ81_RS04785" fbc:label="G_ACZ81_RS04785">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_ACZ81_RS04785">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_061484984.1"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS12565" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS12565" fbc:name="ACZ81_RS12565" fbc:label="G_ACZ81_RS12565">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_ACZ81_RS12565">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_014949999.1"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS06755" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS06755" fbc:name="ACZ81_RS06755" fbc:label="G_ACZ81_RS06755">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_ACZ81_RS06755">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_061485312.1"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS19520" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS19520" fbc:name="ACZ81_RS19520" fbc:label="G_ACZ81_RS19520">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_ACZ81_RS19520">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_014951376.1"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -68238,19 +68175,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS14240" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS14240" fbc:name="ACZ81_RS14240" fbc:label="G_ACZ81_RS14240">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_ACZ81_RS14240">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_061486336.1"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_ACZ81_RS15445" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS15445" fbc:name="ACZ81_RS15445" fbc:label="G_ACZ81_RS15445">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -68589,45 +68513,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS13655" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS13655" fbc:name="ACZ81_RS13655" fbc:label="G_ACZ81_RS13655">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_ACZ81_RS13655">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_061486191.1"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS04690" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS04690" fbc:name="ACZ81_RS04690" fbc:label="G_ACZ81_RS04690">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_ACZ81_RS04690">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_061484965.1"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS10270" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS10270" fbc:name="ACZ81_RS10270" fbc:label="G_ACZ81_RS10270">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_ACZ81_RS10270">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_061485909.1"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_ACZ81_RS03160" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS03160" fbc:name="ACZ81_RS03160" fbc:label="G_ACZ81_RS03160">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -68635,32 +68520,6 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/WP_061439531.1"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS17855" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS17855" fbc:name="ACZ81_RS17855" fbc:label="G_ACZ81_RS17855">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_ACZ81_RS17855">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_039226809.1"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS18070" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS18070" fbc:name="ACZ81_RS18070" fbc:label="G_ACZ81_RS18070">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_ACZ81_RS18070">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_061486708.1"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -68680,32 +68539,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS06840" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS06840" fbc:name="ACZ81_RS06840" fbc:label="G_ACZ81_RS06840">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_ACZ81_RS06840">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_061485322.1"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS18465" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS18465" fbc:name="ACZ81_RS18465" fbc:label="G_ACZ81_RS18465">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_ACZ81_RS18465">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_061486740.1"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_ACZ81_RS00590" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS00590" fbc:name="ACZ81_RS00590" fbc:label="G_ACZ81_RS00590">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -68719,19 +68552,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS17020" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS17020" fbc:name="ACZ81_RS17020" fbc:label="G_ACZ81_RS17020">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_ACZ81_RS17020">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_014950852.1"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_ACZ81_RS05435" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS05435" fbc:name="ACZ81_RS05435" fbc:label="G_ACZ81_RS05435">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -68739,19 +68559,6 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/WP_014948676.1"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS09020" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS09020" fbc:name="ACZ81_RS09020" fbc:label="G_ACZ81_RS09020">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_ACZ81_RS09020">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_061485774.1"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -72216,32 +72023,6 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS04105" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS04105" fbc:name="ACZ81_RS04105" fbc:label="G_ACZ81_RS04105">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_ACZ81_RS04105">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_014975770.1"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS08205" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS08205" fbc:name="ACZ81_RS08205" fbc:label="G_ACZ81_RS08205">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_ACZ81_RS08205">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_061485631.1"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="meta_G_ACZ81_RS15340" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS15340" fbc:name="ACZ81_RS15340" fbc:label="G_ACZ81_RS15340">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -72249,19 +72030,6 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/refseq/WP_014950543.1"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS15720" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS15720" fbc:name="ACZ81_RS15720" fbc:label="G_ACZ81_RS15720">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_G_ACZ81_RS15720">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/refseq/WP_061486500.1"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -76617,6 +76385,16 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_ACZ81_RS14040" fbc:name="G_ACZ81_RS14040" fbc:label="G_ACZ81_RS14040"/>
+      <fbc:geneProduct fbc:id="G_ACZ81_RS15810" fbc:name="G_ACZ81_RS15810" fbc:label="G_ACZ81_RS15810"/>
+      <fbc:geneProduct fbc:id="G_ACZ81_RS05440" fbc:name="sapD" fbc:label="G_ACZ81_RS05440"/>
+      <fbc:geneProduct fbc:id="G_ACZ81_RS05455" fbc:name="sapA" fbc:label="G_ACZ81_RS05455"/>
+      <fbc:geneProduct fbc:id="G_ACZ81_RS05445" fbc:name="sapC" fbc:label="G_ACZ81_RS05445"/>
+      <fbc:geneProduct fbc:id="G_ACZ81_RS05450" fbc:name="sapB" fbc:label="G_ACZ81_RS05450"/>
+      <fbc:geneProduct fbc:id="G_ACZ81_RS03155" fbc:name="nrtB" fbc:label="G_ACZ81_RS03155"/>
+      <fbc:geneProduct fbc:id="G_ACZ81_RS03150" fbc:name="nrtA" fbc:label="G_ACZ81_RS03150"/>
+      <fbc:geneProduct fbc:id="G_ACZ81_RS00585" fbc:name="sfuB" fbc:label="G_ACZ81_RS00585"/>
+      <fbc:geneProduct fbc:id="G_ACZ81_RS00580" fbc:name="sfuA" fbc:label="G_ACZ81_RS00580"/>
     </fbc:listOfGeneProducts>
   </model>
 </sbml>
