@@ -62930,6 +62930,9 @@
           <speciesReference species="M_cpd00024_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd02698_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS01905"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn01637_c0" sboTerm="SBO:0000176" id="R_rxn01637_c0" name="N2-Acetyl-L-ornithine:2-oxoglutarate aminotransferase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -62958,6 +62961,9 @@
           <speciesReference species="M_cpd00024_c0" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00342_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS01905"/>
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction metaid="meta_R_rxn16823_c0" sboTerm="SBO:0000176" id="R_rxn16823_c0" name="thiazole tautomerase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <annotation>
@@ -64440,7 +64446,7 @@
           </rdf:RDF>
         </annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="meta_G_ACZ81_RS01905" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS01905" fbc:name="ACZ81_RS01905" fbc:label="G_ACZ81_RS01905">
+      <fbc:geneProduct metaid="meta_G_ACZ81_RS01905" sboTerm="SBO:0000243" fbc:id="G_ACZ81_RS01905" fbc:name="argD" fbc:label="G_ACZ81_RS01905">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_G_ACZ81_RS01905">
