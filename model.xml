@@ -7867,6 +7867,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd01501"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd24620"/>
                   <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C7H10O7/c1-3(5(10)11)7(14,6(12)13)2-4(8)9/h3,14H,2H2,1H3,(H,8,9)(H,10,11)(H,12,13)/p-3/t3-,7-/m1/s1"/>
                   <rdf:li rdf:resource="https://identifiers.org/inchikey/YNOXCRMFGMSKIJ-WVBDSBKLSA-K"/>
                   <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/2mcit"/>
@@ -21575,6 +21576,24 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd34961"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_cpd25681_c0" id="M_cpd25681_c0" name="2-methyl-trans-aconitate [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C7H5O6">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd25681_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd25681"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C7H8O6/c1-3(6(10)11)4(7(12)13)2-5(8)9/h2H2,1H3,(H,8,9)(H,10,11)(H,12,13)/p-3/b4-3+"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/NUZLRKBHOBPTQV-ONEGZZNKSA-K"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM5311"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C21250"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CPD-9421"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -66625,6 +66644,59 @@
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS01845"/>
         </fbc:geneProductAssociation>
       </reaction>
+      <reaction metaid="meta_R_rxn25279_c0" id="R_rxn25279_c0" name="2-methylcitrate dehydratase (2-methyl-trans-aconitate forming)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_rxn25279_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn25279"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR114561"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R11263"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:RXN-8979"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.2.1.117"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd01501_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd25681_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15300"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="meta_R_rxn25278_c0" id="R_rxn25278_c0" name="2-methylaconitate isomerase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_rxn25278_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn25278"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR114562"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R11264"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:RXN-8977"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/5.3.3.-"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd25681_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd02597_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS15305"/>
+        </fbc:geneProductAssociation>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -78229,6 +78301,8 @@
       <fbc:geneProduct fbc:id="G_ACZ81_RS07815" fbc:name="G_ACZ81_RS07815" fbc:label="G_ACZ81_RS07815"/>
       <fbc:geneProduct fbc:id="G_ACZ81_RS01590" fbc:name="G_ACZ81_RS01590" fbc:label="G_ACZ81_RS01590"/>
       <fbc:geneProduct fbc:id="G_ACZ81_RS03210" fbc:name="G_ACZ81_RS03210" fbc:label="G_ACZ81_RS03210"/>
+      <fbc:geneProduct fbc:id="G_ACZ81_RS15300" fbc:name="acnD" fbc:label="G_ACZ81_RS15300"/>
+      <fbc:geneProduct fbc:id="G_ACZ81_RS15305" fbc:name="prpF" fbc:label="G_ACZ81_RS15305"/>
     </fbc:listOfGeneProducts>
   </model>
 </sbml>
