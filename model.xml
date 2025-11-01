@@ -21614,6 +21614,25 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species metaid="meta_M_cpd00149_e0" sboTerm="SBO:0000247" id="M_cpd00149_e0" name="Co2+ [e0]" compartment="e0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="2" fbc:chemicalFormula="Co">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd00149_e0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/cobalt2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CO+2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/Co/q+2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/XLJKHNWPARRRJB-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00175"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM90960"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00149"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -66707,6 +66726,37 @@
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS05535"/>
         </fbc:geneProductAssociation>
+      </reaction>
+      <reaction metaid="meta_R_EX_cpd00149_e0" sboTerm="SBO:0000627" id="R_EX_cpd00149_e0" name="exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_cpd00149_e0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_rxn08239_c0" sboTerm="SBO:0000176" id="R_rxn08239_c0" name="Cobalt (Co+2) ABC transporter" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_rxn08239_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.reaction/COBALT2abcpp"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR96819"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn08239"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00002_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00149_e0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00008_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00009_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00149_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
       </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
