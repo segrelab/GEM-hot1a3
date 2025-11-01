@@ -21633,6 +21633,26 @@
           </rdf:RDF>
         </annotation>
       </species>
+      <species metaid="meta_M_cpd00112_c0" sboTerm="SBO:0000247" id="M_cpd00112_c0" name="CMP-N-acetylneuraminate" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C20H29N4O16P">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_cpd00112_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/cmpacna"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CMP-N-ACETYL-NEURAMINATE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C20H31N4O16P/c1-7(26)22-12-8(27)4-20(18(32)33,39-16(12)13(29)9(28)5-25)40-41(35,36)37-6-10-14(30)15(31)17(38-10)24-3-2-11(21)23-19(24)34/h2-3,8-10,12-17,25,27-31H,4-6H2,1H3,(H,22,26)(H,32,33)(H,35,36)(H2,21,23,34)/p-2/t8-,9+,10+,12+,13+,14+,15+,16+,17+,20+/m0/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/TXCIAUNLDRJGJZ-BILDWYJOSA-L"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/G10616"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00128"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM141"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00112"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
     </listOfSpecies>
     <listOfParameters>
       <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
@@ -66758,6 +66778,42 @@
           <speciesReference species="M_cpd00149_c0" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
+      <reaction metaid="meta_R_EX_cpd00209_e0" sboTerm="SBO:0000627" id="R_EX_cpd00209_e0" name="Nitrate exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_cpd00209_e0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_rxn00827_c0" sboTerm="SBO:0000176" id="R_rxn00827_c0" name="CTP:N-acetylneuraminate cytidylyltransferase [c0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_rxn00827_c0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:RXN-9990"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.7.7.43"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.orthology/K21749"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.orthology/K00983"/>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.reaction/R01117"/>
+                  <rdf:li rdf:resource="https://identifiers.org/metanetx.reaction/MNXR95295"/>
+                  <rdf:li rdf:resource="https://identifiers.org/seed.reaction/rxn00827"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_cpd00052_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00232_c0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00112_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00012_c0" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_ACZ81_RS05095"/>
+        </fbc:geneProductAssociation>
+      </reaction>
     </listOfReactions>
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
@@ -78352,6 +78408,7 @@
       <fbc:geneProduct fbc:id="G_ACZ81_RS15300" fbc:name="acnD" fbc:label="G_ACZ81_RS15300"/>
       <fbc:geneProduct fbc:id="G_ACZ81_RS15305" fbc:name="prpF" fbc:label="G_ACZ81_RS15305"/>
       <fbc:geneProduct fbc:id="G_ACZ81_RS05535" fbc:name="G_ACZ81_RS05535" fbc:label="G_ACZ81_RS05535"/>
+      <fbc:geneProduct fbc:id="G_ACZ81_RS05095" fbc:name="G_ACZ81_RS05095" fbc:label="G_ACZ81_RS05095"/>
     </fbc:listOfGeneProducts>
   </model>
 </sbml>
