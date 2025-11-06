@@ -20263,25 +20263,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_M_cpd00107_e0" sboTerm="SBO:0000247" id="M_cpd00107_e0" name="L-Leucine [e0]" compartment="e0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H13NO2">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_M_cpd00107_e0">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/bigg.metabolite/leu__L"/>
-                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:LEU"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchi/InChI=1S/C6H13NO2/c1-4(2)3-5(7)6(8)9/h4-5H,3,7H2,1-2H3,(H,8,9)/t5-/m0/s1"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchikey/ROHFNLRQFUQHCH-YFKPBYRVSA-N"/>
-                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound/C00123"/>
-                  <rdf:li rdf:resource="https://identifiers.org/metanetx.chemical/MNXM140"/>
-                  <rdf:li rdf:resource="https://identifiers.org/seed.compound/cpd00107"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="meta_M_cpd00391_c0" sboTerm="SBO:0000247" id="M_cpd00391_c0" name="D-Xylonate [c0]" compartment="c0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H9O6">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -61702,11 +61683,6 @@
       <reaction metaid="meta_R_EX_cpd00080_e0" sboTerm="SBO:0000627" id="R_EX_cpd00080_e0" name="Exchange of glycerol-3-phosphate [e0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_default_ub" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_cpd00080_e0" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-      </reaction>
-      <reaction metaid="meta_R_EX_cpd00107_e0" sboTerm="SBO:0000627" id="R_EX_cpd00107_e0" name="Exchange for L-Leucine [e0]" reversible="false" fast="false" fbc:lowerFluxBound="cobra_default_ub" fbc:upperFluxBound="cobra_default_ub">
-        <listOfReactants>
-          <speciesReference species="M_cpd00107_e0" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
       <reaction metaid="meta_R_EX_cpd00123_e0" sboTerm="SBO:0000627" id="R_EX_cpd00123_e0" name="3-Methyl-2-oxobutanoate exchange" reversible="false" fast="false" fbc:lowerFluxBound="cobra_default_ub" fbc:upperFluxBound="cobra_default_ub">
